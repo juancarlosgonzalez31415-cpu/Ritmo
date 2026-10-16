@@ -1,0 +1,39 @@
+RITMO PARA CELULAR (Android) — v3.2 móvil
+
+Es el mismo Ritmo del PC hecho aplicación instalable: álbumes en vinilo, pantalla completa con letra y
+disco girando, letras automáticas, radio, ecualizador, listas, cola, temporizador y mezcladora DJ.
+Abre sin internet una vez instalado. La música que añadas se guarda dentro de la aplicación.
+
+PASO 1 · PUBLICARLA (una sola vez, gratis, en GitHub)
+1. Entra a github.com con tu cuenta.
+2. Arriba a la derecha «+» → «New repository». Nombre: ritmo. Marca «Public». «Create repository».
+3. Clic en «uploading an existing file». Arrastra TODOS los archivos de esta carpeta
+   (index.html, sw.js, manifest.webmanifest y los tres icon-…png). «Commit changes».
+4. Entra a «Settings» → «Pages». En «Branch» elige «main» y «/ (root)» → «Save».
+5. Espera 1 o 2 minutos. La dirección queda así:
+   https://juancarlosgonzalez31415-cpu.github.io/ritmo/
+   (Debe ser «Public»: con el plan gratis GitHub solo publica páginas de repositorios públicos.
+    Ahí solo va el programa; tu música NO se sube a ningún lado.)
+
+PASO 2 · INSTALARLA EN EL CELULAR
+1. En el celular abre esa dirección con Chrome.
+2. Toca «📲 Instalar» (arriba) o el menú ⋮ → «Instalar aplicación».
+3. Queda el ícono de Ritmo en tus aplicaciones. Ábrela y toca «＋ Añadir música» para elegir tus canciones.
+
+PARA ACTUALIZARLA MÁS ADELANTE
+Sube de nuevo index.html (y sw.js si cambió) al mismo repositorio. La app se actualiza sola la
+siguiente vez que la abras con internet (a veces hay que cerrarla y abrirla dos veces).
+
+DIFERENCIAS CON EL PC
+- No está el Editor de etiquetas (Android no deja a las aplicaciones web modificar tus archivos).
+- La música se copia dentro de la app: ocupa espacio en el celular. Ritmo pide a Android
+  conservarla para que no se borre sola. Haz «Respaldo y listas» de vez en cuando.
+- La radio solo muestra emisoras seguras (https); las demás el celular no las deja sonar.
+- El volumen lo das con los botones del celular.
+
+EN EL CARRO (Android Auto)
+- Conecta el celular y pon a sonar Ritmo: el sonido sale por los parlantes del carro.
+- Ritmo NO aparece como app en la pantalla de Android Auto: Google solo deja entrar ahí a
+  aplicaciones nativas publicadas en Play Store. Eso sería otro proyecto aparte.
+- Si conectas por Bluetooth (sin Android Auto), la pantalla del carro muestra canción y artista,
+  y los botones del timón pasan canción y pausan.
