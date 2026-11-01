@@ -1,6 +1,6 @@
 // Ritmo móvil: guarda la aplicación en el celular para que abra sin internet.
 // La música no pasa por aquí: vive en el almacenamiento interno de la app (IndexedDB).
-const CACHE = 'ritmo-movil-v3.2';
+const CACHE = 'ritmo-movil-v3.3.1';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
